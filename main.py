@@ -48,15 +48,15 @@ for b in bfs:
     print(str(b.value))
 
 # 7. Walk the tree in `DFS preorder` order and print each value.
-print('\nPreorder:')
+print('\nDFS preorder:')
 bt.walk_dfs_preorder(bt.root)
 
 # 8. Walk the tree in `DFS inorder` order and print each value.
-print('\nInorder:')
+print('\nDFS inorder:')
 bt.walk_dfs_inorder(bt.root)
 
 # 9. Walk the tree in `DFS postorder` and print each value.
-print('\nPost Order:')
+print('\nDFS postorder:')
 bt.walk_dfs_postorder(bt.root)
 
 # 10. Remove the value with key = `b`.
