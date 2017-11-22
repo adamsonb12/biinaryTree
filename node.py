@@ -11,12 +11,12 @@
 class Node(object):
     '''A node in a binary tree'''
 
-    def __init__(self, key, value, parent=None, left=None, right=None):
+    def __init__(self, key, value, parent=None):
         self.key = key
         self.value = value
         self.parent = parent
-        self.left = left
-        self.right = right
+        self.left = None
+        self.right = None
         
     def __str__(self):
         return '<Node: {}:{}>'.format(self.key, self.value)

@@ -1,4 +1,4 @@
-from Node import Node
+from node import Node
 
-n = Node(1, 'whatever I want')
-n.__str__()
+# n = Node(1, 'whatever I want')
+# print(n.__str__())
